@@ -1,0 +1,319 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topmenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 60px;
+   
+   
+}
+.carMenus a{
+    margin-right: 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(90, 89, 89);
+}
+.btnMenu a{
+    text-decoration: none;
+    margin-right: 33px;
+    font-family: 'inter', sans-serif;
+    
+}
+.btnMenu{
+    margin-right: 100px;
+    font-family: 'inter';
+    font-weight: bold;
+}
+.logocar p{
+    font-family: 'Allison', sans-serif;
+}
+.btn-LongIn{
+    background-color: rgba(255, 0, 0, 0);
+    color: white;
+    padding: 5px;
+    border: 1px solid rgb(245, 245, 245);
+    margin-right: 20px;
+
+   
+}
+.btn-signUp{
+    color: white;
+}
+.btn-signUp a :hover{
+    color: white;
+}
+body {
+    background-image: url('herosection\ image.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    width: 1349px;
+    height: 600px;
+    margin: 0;
+}
+.bdtxt{
+    margin: 100px 0 0 60px;
+}
+.headtext{
+    font-family: 'inter';
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(40, 40, 40);
+    
+
+}
+.smalltxt{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+.color{
+    color: red;
+}
+.line{
+    color: red;
+    margin-bottom: 10px;
+}
+.img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    
+
+}
+.img1 img{
+    width: 80px;
+    height: 30px;
+}
+.img2 img{
+    width: 80px;
+    height: 30px;
+    margin-left: 15px;
+
+}
+.about{
+   margin-top: 250px;
+   display: flex;
+
+}
+.leftxt{
+    margin-top: 100px;
+
+}
+.hdtxt{
+font-family: 'inter';
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+}
+.nortxt{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 300;
+}
+.smtxt{
+    font-family: 'Poppins';
+}
+.seltxt{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'inter';
+    font-weight: 900;
+    font-size: 15px;
+    color: rgb(40, 40, 40);
+}
+.seltxt p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.carsells{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 40px;
+    justify-content: space-between;
+    background-position: center;
+     
+}
+
+.txt1{
+    font-family: 'Inter';
+    font-size: 10px;
+ 
+}
+
+.sectiontFour{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-family: 'Poppins';
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+    color: white;
+    font-size: 13px;
+}
+
+.lefttxt1{
+   margin-right: 70px;
+   margin-top: 20px;
+   line-height: 25px;
+   letter-spacing: 1px;
+   font-weight: 300;
+}
+.lefttxt1 h1{
+    font-family: 'Inter';
+}
+.lefttxt2 h1{
+    font-family: 'Inter';
+}
+.lefttxt3 h1{
+    font-family: 'Inter';
+}
+.lefttxt2{
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.lefttxt3{
+    margin-left: 100px;
+}
+.footertxt{
+    background-color: rgb(26, 26, 26);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Inter';
+}
+.textarea1{
+    margin-top: 10px;
+}
+#Message{
+    padding: 10px;
+    size: 20px;
+}
+.formGroup{
+    margin-right: 20px;
+}
+
+
+
+.textarea1 button{
+    color: white;
+    background-color: red;
+    padding: 3px;
+    border: 0;
+}
+input[type="email"]{
+    border: 0;
+    border-radius: 2px;
+    padding: 5px;
+    
+}
+.logocar{
+    color: red;
+    font-size: 25px;
+}
+.lefttxt2 a{
+    text-decoration: none;
+    color: white;
+}
+
+/*chat gpt*/
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #333; /* Change the color on hover */
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
+
+.shop-box {
+    max-width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: box-shadow 0.3s ease-in-out;
+    font-family: 'Inter';
+}
+
+.shop-box:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.shop-box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.shop-box-content {
+    padding: 15px;
+}
+
+.shop-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.shop-box p {
+    color: #555;
+}
+
+.buy-now-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-now-btn:hover {
+    background-color: rgb(4, 197, 100);
+}
